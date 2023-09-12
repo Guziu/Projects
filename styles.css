@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+}
+html,a{
+  font-size: 18px;
+  color: white;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#lewy{
+  height: 90%;
+  width:10%;
+  background: linear-gradient(
+  black,
+  gray
+  );
+  color: white;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  font-style: italic;
+  
+}
+
+#pasek{
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(
+  90deg,
+  black,
+  gray
+  );
+  position: absolute;
+  top:0%;
+  font-style: italic;
+}
+
+h5{
+ text-align: center;
+  color: white;
+  letter-spacing: 6px; 
+  font-size: 18px;
+}
+
+#srodek{
+  width: 90%;
+  height: 80%;
+  background-color: gray;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  color: white;
+  text-align: justify;
+  font-style: italic;
+  padding-left: 8%;
+  padding-top:3%;
+  font-size: 16px;
+}
+
+hr{
+  margin: 0;
+  height: 4px;
+  border-radius: 50%;
+
+}
+
+#stopka{
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	top: 90%;
+    left: 10%;
+	text-align: right;
+	color: white;
+	background-color: gray;
+}
+
+#drugalinia{
+	position: absolute;
+	bottom:65%;
+	left: 20%;
+	width: 50%;
+	height: 4px;
+	background: linear-gradient(
+	90deg,
+	white, 
+	black);
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+	border-radius: 50%;
+
+}
+.autor{
+  position: absolute;
+  bottom: 12%;
+  right: 13%;
+
+}
+
+.logo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 125px 0 white;
+  position: absolute;
+  left: 35%;
+  top: 24%;
+  opacity: 0.3;
+  animation-name: logo;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index:2;
+  transform-origin: 0 0;
+}
+
+@keyframes logo{
+
+  16%{
+	left: 0%;
+	top: 24%;
+  }
+  
+  33% {
+	top: 0%;
+	left: 35%;
+  }
+  
+  49% {
+	left: 80%;
+	top: 24%;
+  }
+
+  66% {
+	top: 60%;
+	left: 35%;
+}
+  100% {
+	 top: 24%;
+	 
+ }
+
+  
+}
+
+a{
+  text-decoration: none;	
+  margin: 10 0 10 0;
+}
+
+
+a:hover{
+  color: gray;
+  margin-left: 5px;
+}
+#komorka{
+  height: 50px;
+  text-align: center;
+  padding-top: 18px;  
+}
+
+.bold{
+	font-size: 40px;
+}
+
+.wciecie{
+	text-indent: 2%;
+}

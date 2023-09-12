@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(
+    90deg,
+    black,
+    gray
+    );
+  color: white;
+  overflow: hidden;
+}
+p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+li{
+  margin-top: 15px;
+  list-style-type: circle;
+}
+
+.logo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 125px 0 white;
+  position: absolute;
+  right: 20%;
+  top: 24%;
+  opacity: 0.3;
+  animation-name: logo;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logo{
+  0%{
+	  transform: rotate(0deg);
+}
+
+
+100%{
+	transform: rotate(360deg);
+}
+}
+
+#stopka{
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	top: 90%;
+    left: 10%;
+	text-align: right;
+	color: white;
+}
+
+#drugalinia{
+  width: 80%;
+  border-radius: 50%;
+  margin-right: 20%;
+  background: linear-gradient(
+	90deg,
+	white, 
+	black);
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+}
+
+.autor{
+  position: absolute;
+  bottom: 18%;
+  right: 13%;
+}
+
+#pierwszalinia{
+  margin-top: -1%;
+  width: 50%;
+  border-radius: 50%;
+  background: linear-gradient(
+	90deg,
+	white, 
+	black);
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+}
+
+hr{
+  height: 4px;	
+}
+
+#naglowek{
+  position: absolute;
+  width: 100%;	
+  height: 20%;
+}
+
+#glowna{
+  position: absolute;
+  top: 13%;
+  left: 8%;
+  height: 80%;
+  width: 100%;  
+}
+
+#stronaglowna{
+  position: absolute;
+  left: 2%;  
+  top: 10%;
+  font-size: 15px;
+  color: white;
+}
+
+#stronaglowna:hover{
+  margin-left: 1%;	
+  color: gray;
+}

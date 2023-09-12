@@ -1,0 +1,227 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+  90deg,
+  black,
+  gray
+  );
+}
+
+#pasek{
+  width: 90%;
+  height: 20%;
+  
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  color: white;
+}
+
+#srodek{
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding-left: 3%;
+  padding-top: 1%;
+  color: white;
+}
+
+#stopka{
+	width: 90%;
+	height: 10%;
+	position: absolute;
+	top: 90%;
+	left: 10%;
+	text-align: right;
+	color: white;
+	
+}
+
+#napis{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 10%;
+    color: white;
+}
+
+#gora{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: -10%;
+}
+
+#dol{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: -10%;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 25%;
+	border: 2px solid white;
+}
+
+img:nth-of-type(1){
+	margin-left: 95px;
+	margin-top: 10px;
+}
+
+
+
+#foty:hover{
+	width: 280px;
+	height: 220px;
+
+}
+
+
+h3{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.autor{
+  position: absolute;
+  bottom: 16%;
+  right: 8%;
+
+}
+
+#drugalinia{
+	position: absolute;
+	bottom: 80%;
+	left: 25%;
+	width: 50%;
+	height: 4px;
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+	border-radius: 50%;
+    margin: 0;
+}
+
+#pierwszalinia{
+	position: absolute;
+	bottom: 50%;
+	left: 35%;
+	width: 30%;
+	height: 4px;
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+	border-radius: 50%;
+    margin: 0;
+}
+
+.loo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 125px 0 white;
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  opacity: 0.3;
+  animation-name: logo;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: 0 0;
+  border: none;
+  o
+}
+
+@keyframes logo{
+
+ 12%{
+	left: -10%;
+	top: -30%;
+	transform: scale(1.25);
+  }
+  
+  25%{
+	top: 25%;
+	left: 36%;
+	transform: scale(0.5);
+  }
+  
+  37% {
+	left: 70%;
+    top: -30%;
+	transform: scale(1.25);
+  }
+  
+  50% {
+	top: 25%;
+	left: 36%;
+	transform: scale(0.5);
+  }
+
+  62% {
+	top: 47%;
+	left: 65%;
+	transform: scale(1.25);
+}
+
+  75% {
+	top: 25%;
+	left: 36%;
+	transform: scale(0.5);
+  }
+  
+  87% {
+	 top: 47%;
+	 left: -15%;
+	 transform: scale(1.25);
+ }
+ 
+ 100% {
+	top: 25%;
+	left: 36%;
+	transform: scale(0.5);
+  }
+}
+
+
+
+h4{
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	padding-left: 40%;
+	padding-top: 90%;
+	text-transform: uppercase;
+	font-size: 1.2em;
+
+}
+
+#liniacala{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	height: 80%;
+	width: 3px;
+	border-radius: 50%;
+	background-color: #bbb;
+}
+
+#stronaglowna{
+  position: absolute;
+  left: 5%;  
+  top: 5%;
+  font-size: 15px;
+  color: white;
+}
+
+#stronaglowna:hover{
+  margin-left: 1%;	
+  color: gray;
+}

@@ -1,0 +1,149 @@
+html{
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 800;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(
+	45deg,
+	black,
+	gray
+	);
+	color: white;
+	overflow: hidden;
+}
+
+.naglowek{
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+h3{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.glowne{
+	width: 20%;
+	height: 80%;
+	position: absolute;
+	top: 15%;
+	left: 2%;
+}
+
+a{
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:hover:not(#stronaglowna), article:hover{
+	color: gray;
+	margin-left: 5%;
+
+}
+
+#pierwszalinia{
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	height: 4px;
+	background: linear-gradient(
+	90deg,
+	white, 
+	black);
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+	border-radius: 50%;
+}
+
+.logo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 125px 0 white;
+  position: absolute;
+  left: 190%;
+  bottom: 40%;
+  opacity: 0.3;
+  animation-name: logo;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes logo{
+  0%{
+	  transform: rotate(0deg);
+}
+
+ 50%{
+	transform: rotate(180deg);
+
+}
+0%{
+	  transform: rotate(0deg);
+}
+
+100%{
+	transform: rotate(-180deg);
+}
+}
+iframe{
+  position: absolute;
+  left: 0%;
+
+}
+
+article{
+ position: absolute;
+  left: 15%;	
+  top: 27.5%;
+}
+ 
+#stopka{
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	text-align: right;
+	color: white;
+}
+#drugalinia{
+	position: absolute;
+	bottom: 0%;
+	width: 80%;
+	height: 4px;
+	background: linear-gradient(
+	90deg,
+	white, 
+	black);
+	border: none;
+	box-shadow: 0 0 5px 0 white;
+	border-radius: 50%;
+
+}
+.autor{
+  position: absolute;
+  bottom: -30%;
+  right: 15%;
+
+}
+
+#stronaglowna{
+  position: absolute;
+  left: 2%;  
+  top: 4%;
+  font-size: 15px;
+}
+
+#stronaglowna:hover{
+  margin-left: 1%;	
+  color: gray;
+}
